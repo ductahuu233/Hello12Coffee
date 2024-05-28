@@ -158,6 +158,7 @@ const SettingScreen = ({navigation}) => {
 const styles = StyleSheet.create({
   container: {
     paddingVertical: 24,
+    backgroundColor: '#d7d4d4',
   },
   profile: {
     padding: 24,
@@ -224,10 +225,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 12,
+    backgroundColor: '#fff',
   },
   rowLabel: {
     fontSize: 17,
     color: '#0c0c0c',
+    flex: 1,
   },
 });
 export default SettingScreen;
